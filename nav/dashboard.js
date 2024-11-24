@@ -35,7 +35,7 @@ async function fetchPackagaUser() {
 
         const mapData = data.data;
         mapData.map((itemuser) => {
-
+          itemuser = true;
             if(itemuser){
                 if(itemuser.id === allStoredData.user.id){
                     // document.getElementById('profile_password').value = allStoredData.user.password;
