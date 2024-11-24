@@ -1,9 +1,9 @@
 const storedDataItem = localStorage.getItem("dataStorage");
-const allStoredData = JSON.parse(storedDataItem);
+// const allStoredData = JSON.parse(storedDataItem);
 const userPhoneOne = document.getElementById("user_phone_one");
 const userNameOne = document.getElementById("user_name_one");
 
-
+const allStoredData = true;
 if(allStoredData){
 
 }else{
