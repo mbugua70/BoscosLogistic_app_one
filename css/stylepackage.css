@@ -1,0 +1,133 @@
+.card{
+    margin-block: 20px;
+    padding: 5px 5px;
+    position: relative;
+}
+
+.flex-package{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 12px;
+}
+
+.form-groups{
+    display: flex;
+    justify-content: space-between;
+}
+.form-groups.forms-group-two{
+    display: flex;
+    justify-content: center;
+}
+
+.red-color.btn.btn-primary{
+    background-color: red;
+}
+
+/* home package styling */
+a{
+  text-decoration: none;
+}
+
+.item-link {
+   text-decoration: none;
+   font-family: "Roboto", sans-serif;
+   background-color: #176cb5;
+    margin: 20px 15px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(8, 8, 8); */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: none;
+    /* padding-block: 20px; */
+    border-radius: 8px;
+  }
+
+  .firstnav {
+    margin-top: 30px;
+    margin-bottom:100px;
+    height: 100%;
+  }
+
+  .firstnav a:hover {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.8);
+    color:#fff;
+  }
+
+  /* #footer.footer_bottom.footer_style_one{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+
+  } */
+
+
+  /* styling for editing the buttons and package cards */
+
+  button.btn-edit,button.btn-cancel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  button.btn-edit :nth-child(2),button.btn-delete :nth-child(2){
+    padding-left: 4px;
+  }
+
+  h4.package-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(25, 118, 210,1.0);
+    padding:10px 15px;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .own_status{
+    background-color: darkcyan;
+    width: auto;
+    height: 2.2rem;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    padding: 4px;
+    color:#fff;
+    border-radius: 4px;
+  }
+
+  /* preloader buttons */
+
+  div:where(.swal2-container) h2:where(.swal2-title){
+    overflow: hidden;
+  }
+
+  .form-group.hide-overflow{
+    overflow: hidden;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .form-group.hide-overflow col-lg-9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .form-group.hide-overflow  input{
+    width: 100%;
+    border: 1px solid #176cb5;
+    color:#176cb5;
+  }

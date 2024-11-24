@@ -1,0 +1,16 @@
+div:where(.swal2-container) .swal2-html-container{
+    width:80%;
+    margin-inline: auto;
+    display: flex !important;
+    flex-direction: column;
+}
+
+
+
+.swal2-html-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: auto;
+}
