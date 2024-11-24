@@ -1,6 +1,7 @@
 const ButtonPackage = document.getElementById("button-home");
 const checkLog = document.getElementById("check_login");
-const storedDataTwo = localStorage.getItem("dataStorage");
+// const storedDataTwo = localStorage.getItem("dataStorage");
+const storedDataTwo = true
 // console.log(storedDataTwo);
 const newPackageCheck = () =>{
    if(storedDataTwo){
