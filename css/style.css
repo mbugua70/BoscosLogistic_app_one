@@ -421,7 +421,7 @@ font-size: 2.5em !important;
 }
 
 @media (max-width: 992px){
-    .main .row{
+    .main{
         padding: 20px;
     }
     .text-8{
